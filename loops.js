@@ -15,7 +15,7 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array){
- do {console.log("idk wtf should go here");}
+ do {array.length = array.length - 1;}
   while(maybeTrue() && array.length > 0);{
      array.length = array.length - 1
   }
