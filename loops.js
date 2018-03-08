@@ -15,6 +15,9 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array){
-     array = [1]
+ do {console.log("idk wtf should go here");}
+  while(maybeTrue() && array.length > 0);{
+     delete array[array.length - 1]
+  }
 }
 
