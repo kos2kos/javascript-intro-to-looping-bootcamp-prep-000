@@ -1,12 +1,8 @@
 function forLoop(arg){
-  for (var i = 0; i < 26; i++){
-    if (i === 1){
-    arg.push(`I am 1 strange loop.`);
-    }
-    else{
-    arg.push(`I am ${i} strange loops.`);
+  for (var i = 0; i < 25; i++){
+    arg.push(`I am ${i} strange loop ${i === 0 ?'':'s'}.`);
   }return arg
-}}
+}
 function whileLoop(num){
   while(num > 0){
     console.log(num)
